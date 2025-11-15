@@ -42,9 +42,9 @@ env/
 *~
 
 # Output directories
-outputs/
+
 checkpoints/
-plots/
+
 logs/
 
 # Temporary config files
@@ -62,8 +62,14 @@ Thumbs.db
 *.tmp
 temp/
 
-# Results
-*.json
+
 !configs/*.json  # Keep config files
-*.md
 .github
+REPORT.md
+SETUP_AND_RUN_GUIDE.md
+colab_training.py
+.github
+COLAB_TRAINING_GUIDE.md
+UPLOAD_REPORT.txt
+quick_test.ps1
+
