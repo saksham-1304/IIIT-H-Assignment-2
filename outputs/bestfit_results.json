@@ -1,0 +1,67 @@
+{
+    "experiment_name": "bestfit",
+    "train_losses": [
+        4.957627915580033,
+        4.150454314351757,
+        3.8092941419724564,
+        3.5522323993972313,
+        3.3572860499875596,
+        3.213881403376535,
+        3.1407167254055883
+    ],
+    "val_losses": [
+        4.420729530941356,
+        4.326315114714882,
+        4.328280662406574,
+        4.378207060423764,
+        4.432261388952082,
+        4.464176115122709,
+        4.489698613773693
+    ],
+    "train_perplexities": [
+        142.25595223062098,
+        63.46282582227697,
+        45.11858031172882,
+        34.89112152911259,
+        28.71116438219629,
+        24.875450747339315,
+        23.120431922659126
+    ],
+    "val_perplexities": [
+        83.15692878756384,
+        75.66495555256797,
+        75.81382488825768,
+        79.69501688360656,
+        84.12143325866103,
+        86.84944611029765,
+        89.0945899496091
+    ],
+    "best_val_loss": 4.326315114714882,
+    "best_val_perplexity": 75.66495555256797,
+    "test_loss": 4.66132242679596,
+    "test_perplexity": 105.77587055191151,
+    "config": {
+        "experiment_name": "bestfit",
+        "seed": 42,
+        "data_path": "dataset/Pride_and_Prejudice-Jane_Austen.txt",
+        "tokenization_level": "word",
+        "vocab_size": 10000,
+        "min_freq": 2,
+        "train_ratio": 0.8,
+        "val_ratio": 0.1,
+        "seq_length": 35,
+        "batch_size": 64,
+        "embedding_dim": 256,
+        "hidden_dim": 256,
+        "num_layers": 2,
+        "dropout": 0.3,
+        "tie_weights": true,
+        "learning_rate": 0.001,
+        "num_epochs": 50,
+        "clip_grad": 5.0,
+        "early_stopping_patience": 5,
+        "output_dir": "outputs",
+        "checkpoint_dir": "checkpoints",
+        "plots_dir": "plots"
+    }
+}
