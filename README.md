@@ -10,6 +10,17 @@ A from-scratch PyTorch implementation of a neural language model trained on Jane
 - **Evaluation Metric**: Perplexity
 - **Experiments**: Three scenarios demonstrating underfitting, overfitting, and best-fit
 
+## 📝 Trained Model Links
+
+Due to file size limitations, trained model checkpoints are hosted on Google Drive:
+
+**All Model Checkpoints**: [Download from Google Drive](https://drive.google.com/drive/folders/1xd95C6naTZhu_XOm7DZIK5rA-fceMrzD?usp=sharing)
+
+This folder contains:
+- Best-fit model checkpoints (best and final)
+- Underfit model checkpoints (best and final)
+- Overfit model checkpoints (best and final)
+
 
 
 ## 🗂️ Project Structure
@@ -235,16 +246,6 @@ The LSTM language model consists of:
 - Vocabulary building (only on training data)
 - 80/10/10 train/val/test split
 
-## 📝 Trained Model Links
-
-Due to file size limitations, trained model checkpoints are hosted on Google Drive:
-
-**All Model Checkpoints**: [Download from Google Drive](https://drive.google.com/drive/folders/1xd95C6naTZhu_XOm7DZIK5rA-fceMrzD?usp=sharing)
-
-This folder contains:
-- Best-fit model checkpoints (best and final)
-- Underfit model checkpoints (best and final)
-- Overfit model checkpoints (best and final)
 
 
 
